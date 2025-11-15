@@ -1,24 +1,24 @@
-# README
+# 📘 Booknote - 読書ノートアプリ（Backend / API）
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Booknote は、読んだ本のメモや気づきを記録・管理するための Web アプリケーションです。  
+このリポジトリは、バックエンド部分（Ruby on Rails API）です。  
 
-Things you may want to cover:
+---
 
-* Ruby version
+## 🧩 技術スタック
 
-* System dependencies
+| 分類 | 使用技術 |
+|------|-----------|
+| 言語 / フレームワーク | Ruby on Rails |
+| 認証 | Google OAuth 2.0 |
+| 外部API | Google Books API |
+| デプロイ | Heroku |
+| DB | （PostgreSQL） |
 
-* Configuration
+---
 
-* Database creation
+## 📁 関連リポジトリ
 
-* Database initialization
+- Frontend: [Booknote Frontend (React + TypeScript + Vite)](https://github.com/kawamura-takuya/booknote-frontend)
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+---
