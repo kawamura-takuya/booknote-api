@@ -4,6 +4,8 @@ source "https://rubygems.org"
 gem "rails", "~> 7.2.2", ">= 7.2.2.2"
 # Authentication
 gem "devise"
+# Localization / i18n
+gem "rails-i18n", "~> 7.0"
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
 # Use the Puma web server [https://github.com/puma/puma]
@@ -41,4 +43,3 @@ group :development, :test do
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
 end
-
